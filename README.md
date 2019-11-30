@@ -30,7 +30,12 @@ Conversion using 2D Homogeneous Coordinates," HWWS 1997.
 How to Build
 ------------
 
-Follow the instructions to [install TensorFlow using virtualenv](https://www.tensorflow.org/install/install_linux#installing_with_virtualenv).
+`python3.6 -m venv tf36` in your environments directory and activate tf36.
+```
+pip install numpy==1.16.5
+pip install tensorflow-gpu==1.13.2
+pip install sentencepiece tf-sentencepiece tensorflow-hub
+```
 
 Build and run tests using Bazel from inside the (tensorflow) virtualenv:
 
